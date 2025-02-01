@@ -29,4 +29,5 @@ def --env y [...args] {
 	rm -fp $tmp
 }
 
-$env.config.shell_integration.osc133 = false
+$env.config.shell_integration.osc133 = true
+$env.config.show_banner = false
